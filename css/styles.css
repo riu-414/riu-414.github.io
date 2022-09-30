@@ -57,15 +57,14 @@ header .container {
 
 .profile .container {
   padding: 32px 0;
-  display: flex;
-  justify-content: space-evenly;
+  text-align: center;
   align-items: center;
   border-radius: 8px;
   background-color: #ffffff;
 }
 
 .profile .Career {
-  width: 200px;
+  margin: 16px 32px;
 }
 
 .profile img {
@@ -202,6 +201,13 @@ footer {
   
   header h2 {
     font-size: 30px;
+  }
+
+  .profile .container {
+    padding: 32px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
 
   .profile .Career {
