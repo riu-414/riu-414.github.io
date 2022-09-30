@@ -65,7 +65,7 @@ header .container {
 }
 
 .profile .Career {
-  width: 400px;
+  width: 200px;
 }
 
 .profile img {
@@ -97,8 +97,8 @@ header .container {
 }
 
 .myself {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -129,6 +129,7 @@ header .container {
 }
 
 .works p {
+  margin: 0;
   font-size: 16px;
 }
 
@@ -167,7 +168,7 @@ header .container {
 
 .skills .content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: 16px;
 }
 
@@ -203,14 +204,33 @@ footer {
     font-size: 30px;
   }
 
+  .profile .Career {
+    width: 400px;
+  }
+
+  .profile .myself {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
   .works section {
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+  }
+
+  .works .content {
+    margin: 0 16px;
+  }
+
+  .works h4 {
+    margin: 0 0 16px 0;
   }
 
   .app-img {
     margin: 0 16px;
-    width: 200px;
+    width: 300px;
   }
 
   .works section:nth-child(even) {
